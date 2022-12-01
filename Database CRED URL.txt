@@ -1,0 +1,27 @@
+CMDB PROD URL
+
+ssh -i persistent.pem ubuntu@3.143.209.20 -L 2341:vtrdbstaging.cluster-c7jflxwhecby.us-east-2.rds.amazonaws.com:5432
+
+
+
+
+NEO4J PROD CRED
+
+http://3.138.231.3:7474
+
+User: neo4j
+
+Password: vitrina@neo4j
+
+
+
+
+ELASTIC SEARCH CRED
+
+ssh -i vtrcmsenvkey.pem ec2-user@18.223.196.153 -L 4433:vpc-vtr-stage-es-fhpfswxbptl73w6ijvisbhdpdm.us-east-2.es.amazonaws.com:443
+
+"vtradmin"
+
+"Vitrina@123"
+
+https://localhost:4433/_plugin/kibana/app/kibana#/dev_tools/console
